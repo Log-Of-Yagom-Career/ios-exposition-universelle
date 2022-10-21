@@ -53,6 +53,9 @@
 ## 프로젝트 내용
 
 ### 주요 기능
+#### UML
+<img width="1155" alt="스크린샷 2022-10-21 오후 5 23 24" src="https://user-images.githubusercontent.com/77507952/197149107-0b4d5785-93d1-4583-b7d0-e5be23eb5dd2.png">
+
 
 ### 구현 기능
 
