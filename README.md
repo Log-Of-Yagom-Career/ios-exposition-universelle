@@ -12,6 +12,7 @@
 |[Github](https://github.com/Dylan-Yoon)|[Github](https://github.com/iOS-Woong)|
     
 
+
 ---
 
 ## 타임라인: 시간 순으로 프로젝트의 주요 진행 척도를 표시
@@ -44,18 +45,18 @@
 
 ### Week 2
 - **2022-10-24(월)**
+    - 뱀 감기
 - **2022-10-25(화)**
-- **2022-10-26(수)**
-- **2022-10-27(목)**
-- **2022-10-28(금)**
+    - autolayout 설정
+- **2022-10-26(수)** - Step2 Merged
+- **2022-10-28(금)** - Step3 PR
+    - `Readme.md` 작성
+    - step3 마무리
 ---
 
 ## 프로젝트 내용
 
 ### 주요 기능
-#### UML
-<img width="1155" alt="스크린샷 2022-10-21 오후 5 23 24" src="https://user-images.githubusercontent.com/77507952/197149107-0b4d5785-93d1-4583-b7d0-e5be23eb5dd2.png">
-
 
 ### 구현 기능
 
@@ -71,11 +72,21 @@
 - **View**
     - EntryTableViewCell.swift
     - Main.storyboard
-
-
+ 
 ### 실행 화면
 
----
+| PosterView | EntryView | DetailEntryView |
+|:---:|:---:|:---:|
+|![](https://i.imgur.com/bn7033z.png)|![](https://i.imgur.com/9bYn0K3.png)|![](https://i.imgur.com/3ArymCJ.png)|
+
+
+| iPhone11 | iPhone8 | iPhone13mini |
+|:---:|:---:|:---:|
+|![](https://i.imgur.com/2FR8ZjY.gif)|![](https://i.imgur.com/624DoBa.gif)|![](https://i.imgur.com/tm3LvLY.gif)|
+
+
+
+
 ## 트러블슈팅
 ### [STEP 1 - 데이터 타입 정의]
 [JSON 포멧 데이터 활용](https://github.com/Dylan-yoon/ios-exposition-universelle/wiki/기술적도전-&-트러블슈팅#%EF%B8%8F-tableview의-활용--tableviewcell)
@@ -86,13 +97,24 @@
 [화면 전환시 데이터 전달](https://github.com/Dylan-yoon/ios-exposition-universelle/wiki/기술적도전-&-트러블슈팅#-화면-전환시-데이터-전달)
 [스크롤뷰 오토레이아웃](https://github.com/Dylan-yoon/ios-exposition-universelle/wiki/기술적도전-&-트러블슈팅#%EF%B8%8F-scrollview-오토레이아웃)
 
+### [STEP 3 - 화면 UI AutoLayout 구성]
+[Dynamic Type의 활용](https://github.com/Dylan-yoon/ios-exposition-universelle/wiki/기술적도전-&-트러블슈팅#%EF%B8%8F-accessibility-inspector의-활용)
+
 ---
 
 ## 참고 
 
 ### 참고한 페이지
 [Apple Developer Document - Codable](https://developer.apple.com/documentation/swift/codable/)
+
 [Cory의 블로그 - ScrollView AutoLayout](https://corykim0829.github.io/ios/UIScrollView-with-storyboard/#)
+
 [Apple Developer Document - TableView](https://developer.apple.com/documentation/uikit/uitableview/)
+
 [boost course의 yagom 강의](https://www.boostcourse.org/mo326/lecture/18732?isDesc=false)
 
+[Apple Develioper Library_ autolayout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/AnatomyofaConstraint.html#//apple_ref/doc/uid/TP40010853-CH9-SW1)
+
+[Accessibility Inspector (WWDC 2019)](https://developer.apple.com/videos/play/wwdc2019/257/)
+
+[Writing Great Accessibility Labels (WWDC 2019)](https://developer.apple.com/videos/play/wwdc2019/254/)
